@@ -1,0 +1,23 @@
+<div class="container bg-colour :  py-5">
+    <h1 class="display-5 fw-bold">Welcome to EagleSky Quiz App</h1>
+
+    <h3 class="display-5 fw-light"><p class="col-md-8 fs-4">This quiz will contain total 10 questions.Each questions holds 10 points.</p></h3>
+    <h4>Rules:</h4>
+    <ol>
+        <li>Total Numbers Of Questions: 10.</li>
+        <li>You Will Have 60 Seconds For Each Question.</li>
+        <li>Each Correct Question gives you 10 points.</li>
+        <Li>Each Incorrect Question gives you -10 points.</Li>
+        <li>Refereshing The Page Will Reset The Quiz. </li>
+        <li>Attempt All The Question.</li>
+    </ol>
+    <h2 style="font-family: cursive;text-align:center">All The Best</h2>
+<div class="name col-md-4 my-3">
+    <label for="">Enter Your Name</label>
+    <input #name type="text" class="form-control">
+</div>
+<button class="btn btn-primary btn-lg" routerLink="/question" (click)="StartQuiz()">Start The Quiz</button>
+
+
+
+</div>
